@@ -1,0 +1,7 @@
+[Desktop Entry]
+
+Type=Application
+Name=GlobalProtect-OpenConnect Auth callback handler
+Exec=/opt/vf_vpn/globalprotect-openconnect/gpauth-callback-handler %u
+MimeType=x-scheme-handler/globalprotectcallback;
+NoDisplay=true

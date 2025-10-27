@@ -1,0 +1,11 @@
+[package]
+name = "gpauth-callback-handler"
+rust-version.workspace = true
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+gpapi = { path = "../../crates/gpapi", default-features = false }
