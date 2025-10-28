@@ -30,5 +30,6 @@ home = "0.5"
 tauri = { workspace = true, optional = true }
 
 [features]
+gp_binaries_on_path = ["gpapi/gp_binaries_on_path"]
 default = ["webview-auth"]
 webview-auth = ["auth/webview-auth", "dep:tauri", "dep:tauri-build"]

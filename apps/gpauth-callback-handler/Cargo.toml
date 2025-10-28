@@ -8,4 +8,7 @@ license.workspace = true
 
 [dependencies]
 anyhow.workspace = true
-gpapi = { path = "../../crates/gpapi", default-features = false }
+gpapi = { path = "../../crates/gpapi" }
+
+[features]
+gp_binaries_on_path = ["gpapi/gp_binaries_on_path"]

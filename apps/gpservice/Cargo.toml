@@ -20,3 +20,6 @@ log.workspace = true
 compile-time.workspace = true
 xz2 = "0.1"
 tar = "0.4"
+
+[features]
+gp_binaries_on_path = ["gpapi/gp_binaries_on_path"]

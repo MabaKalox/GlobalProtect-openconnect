@@ -28,3 +28,4 @@ compile-time.workspace = true
 [features]
 default = ["webview-auth"]
 webview-auth = ["gpapi/webview-auth"]
+gp_binaries_on_path = ["gpapi/gp_binaries_on_path"]

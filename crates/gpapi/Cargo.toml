@@ -31,6 +31,7 @@ uzers.workspace = true
 serde_urlencoded.workspace = true
 md5.workspace = true
 sha256.workspace = true
+cfg-if.workspace = true
 
 tauri = { workspace = true, optional = true }
 clap = { workspace = true, optional = true }
@@ -47,3 +48,4 @@ tauri = ["dep:tauri"]
 clap = ["dep:clap", "dep:clap-verbosity-flag"]
 webview-auth = []
 logger = ["dep:env_logger", "dep:log-reload"]
+gp_binaries_on_path = []

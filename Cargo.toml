@@ -54,6 +54,7 @@ serde_urlencoded = "0.7"
 md5 = "0.8"
 sha256 = "1"
 which = "8"
+cfg-if = "1.0.4"
 
 # Tauri dependencies
 tauri = { version = "2" }
